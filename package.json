@@ -1,7 +1,7 @@
 {
   "name": "kavach-mobile",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,10 +9,31 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/bottom-tabs": "^7.15.4",
+    "@react-navigation/native": "^7.1.32",
+    "@react-navigation/stack": "^7.8.3",
+    "@tanstack/react-query": "^5.90.21",
+    "axios": "^1.13.6",
     "expo": "~55.0.4",
+    "expo-blur": "~55.0.8",
+    "expo-haptics": "~55.0.8",
+    "expo-linear-gradient": "~55.0.8",
+    "expo-local-authentication": "~55.0.8",
+    "expo-notifications": "~55.0.10",
+    "expo-router": "~55.0.3",
+    "expo-secure-store": "~55.0.8",
     "expo-status-bar": "~55.0.4",
+    "nativewind": "^4.2.2",
     "react": "19.2.0",
-    "react-native": "0.83.2"
+    "react-dom": "19.2.0",
+    "react-native": "0.83.2",
+    "react-native-gesture-handler": "~2.30.0",
+    "react-native-reanimated": "4.2.1",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "tailwindcss": "^4.2.1",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@types/react": "~19.2.2",
